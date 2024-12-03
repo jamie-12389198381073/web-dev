@@ -1,7 +1,8 @@
 [
     { 
-        "Title": "Contact us",
-        "E-mail": "E-mail address",
+        "Name": "Name",
+        "lastname": "Surname",
+        "Email": "E-mail address",
         "Message": "Leave a message"
     
     }
