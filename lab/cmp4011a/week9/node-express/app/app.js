@@ -26,4 +26,5 @@ app.post("/contact", (req,res) => {
     const email = req.body.email;
     const message = req.body.message;
     res.send(`Response from the server: Hello ${name}, thank you for your message!, we will contact you at ${email}`);
+    res.json()
 })

@@ -14,10 +14,10 @@ h2 {
     height: 100px;
 }
 article {
-    height: 400px;
-    width: 50%;
+    height: 50%;
+    width: 90%;
+    padding: 50px;
     text-align: center;
-    padding: 100px 100px;
     border: 3px solid blue;
     border-radius: 10px;
 }
@@ -50,4 +50,6 @@ button {
 input[type="submit"] {
     margin-top: 10px
 }
-
+p {
+    
+}

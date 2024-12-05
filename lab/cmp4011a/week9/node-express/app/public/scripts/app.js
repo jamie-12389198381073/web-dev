@@ -42,43 +42,60 @@ let myForm = document.querySelector('form');
 let myName = document.querySelector('#name');
 let myEmail = document.querySelector('#email');
 let myPara = document.querySelector('#p');
-document.addEventListener('submit', () => {
-    const formBody = {
-        name:myName.value,
-        email:myEmail.value,
-        message: message.value
-    }
-    const requestHeader = {
-        "Content-Type": "application/json"
-    }
-    fetch('/contact', {
-        method: 'POST',
-        header: requestHeaders,
-        body: JSON.stringify(formBody);
-    }).then(response => response.json()).then((responsedata) => {
-        console.log(responsedata);
-        message.textContent = `Hi ${responsedata.name}, your message has been received, we will contact you at ${responsedata.email}`;
-    }
 
-    ])
-    myPara.innerText = `Thank you ${myName.value} at ${myEmail.value}`;
-})
+
+if (myForm) {
+    myForm.addEventListener('submit', () => {
+        const formBody = {
+            name:myName.value,
+            email:myEmail.value,
+            message: message.value
+        }
+        const requestHeader = {
+            "Content-Type": "application/json"
+        }
+        fetch('/contact', {
+            method: 'POST',
+            header: requestHeader,
+            body: JSON.stringify(formBody)
+        })
+        .then(response => response.json())
+        .then((responsedata) => {
+            console.log(responsedata);
+            message.textContent = `Hi ${responsedata.name}, your message has been received, we will contact you at ${responsedata.email}`;
+        });
+        myPara.innerText = `Thank you ${myName.value} at ${myEmail.value}`;
+    })
+}
 let mySchedule = document.querySelector('#schedule');
 let localJsonFile = "data.json";
 document.addEventListener('DOMContentLoaded', ()=> {
     fetch(localJsonFile).then(response => response.json()).then(responseData =>{
         console.log(responseData);
         for (item of responseData) {
-            const schedule = document.createElement('article');
-            const imageElement = document.createElement('img');
-
+            let schedule = document.createElement('article');
+            let imageElement = document.createElement('img');
+            schedule.classList.add("services");
             sectionElement.appendChild(schedule);
             imageElement.src = item.imageURL;
             imageElement.alt = item.alt;
+            imageElement.setAttribute('class', 'imagesize');
             schedule.appendChild(imageElement);
-            const h4Element = document.createElement('h4');
+            let h4Element = document.createElement('h4');
             h4Element.textContent = item.style;
             schedule.appendChild(h4Element);
+            let pElement0 = document.createElement('p');
+            let pElement1 = document.createElement('p');
+            let pElement2 = document.createElement('p');
+            let pElement3 = document.createElement('p');
+            pElement0.textContent = item.time;
+            pElement1.textContent = item.focus;
+            pElement2.textContent = item.benefits;
+            pElement3.textContent = item.level;
+            schedule.appendChild(pElement0);
+            schedule.appendChild(pElement1);
+            schedule.appendChild(pElement2);
+            schedule.appendChild(pElement3);
         }
     })
 })
