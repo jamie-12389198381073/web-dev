@@ -11,8 +11,8 @@ body {
 }
 
 header {
-
-
-
-
+    color: #000000;
+    background-color: #b5df9d;
+    text-align: center;
+    height: 100px;
 }

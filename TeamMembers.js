@@ -4,3 +4,4 @@ document.addEventListener("DOMContentLoaded", () => {
     let header = document.getElementById("teamMembers");
     header.textContent = "team members";
 });
+
