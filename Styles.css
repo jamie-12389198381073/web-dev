@@ -221,3 +221,15 @@ nav ul li a:visited{
 #menu {
     display: none;
 }
+
+#mypara1 {
+
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: larger;
+    font-style: oblique;
+}
+
