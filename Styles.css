@@ -71,6 +71,8 @@ header {
     color: white;
     padding: 10px 20px;
     text-align: center;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 header h1 {
