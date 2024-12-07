@@ -1,11 +1,21 @@
 [
     {
-        "style": "Gentle Hatha Yoga",
-        "time": "10:00 - 11:00",
-        "focus": "Lower Back",
-        "benefits": "Brings Peace to the Mind",
-        "level": "Beginner",
-        "imageURL": "assets/yoga1.jpeg",
-        "alt": "A photo of Helen Gutu"
+        "NameOfOurTeamMember": "In the image above we have a picture of Linda who is one of valued team members",
+        "about": "10:00 - 11:00",
+        "whatTheyDo": "Lower Back",
+        "Hobbies": "Brings Peace to the Mind",
+        "WhyTheyChoseToDoThisLineOfWork": "Beginner",
+        "imageURL": "Images/linda.webp",
+        "alt": "A photo of linda"
+    },
+
+    {
+        "NameOfOurTeamMember": "In the image above we have a picture of Harry who is one of valued team members",
+        "about": "10:00 - 11:00",
+        "whatTheyDo": "Lower Back",
+        "Hobbies": "Brings Peace to the Mind",
+        "WhyTheyChoseToDoThisLineOfWork": "Beginner",
+        "imageURL": "Images/harry.jpeg",
+        "alt": "A photo of harry"
     }
 ]

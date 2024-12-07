@@ -33,10 +33,10 @@ if (sectionElement = document.querySelector("#section")) {
     
             schedule.setAttribute("class", "servies");
             schedule.appendChild(headElement);
-            headElement.textContent = "Yoga style: " + item.style;
+            headElement.textContent = "Name of our team member:" + item.NameOfOurTeamMember;
     
             schedule.appendChild(paraElement1);
-            paraElement1.textContent = "time: " + item.time;
+            paraElement1.textContent = "about this team member: " + item.about;
     
             schedule.appendChild(paraElement2);
             paraElement2.textContent = "focus: " + item.focus;
