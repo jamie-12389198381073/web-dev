@@ -3,27 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
-    <link rel="stylesheet" href="4011acss.css" />
-    <style>
-        li {
-            list-style-type: none;
-            width: 50%;
-            border: 3px solid blue;
-            border-radius: 5px;
-            text-align: center;
-            text-decoration: none;
-        }
-    </style>
+    <title>UN Development Goals</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Sustainability</h1>
+    <header>
+        <h1>UN Development Goals</h1>
+    </header>
+
     <nav>
-    <ul>
-        <a href="goals.html"><li>Goals</li></a>
-        <a href="contact.html"><li>Contact</li></a>
-        <a href="team-members"><li>Team Members</li></a>
-    </ul>
+        <a href="home.html">Home</a>
+        <a href="goals.html">Goals</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact</a>
     </nav>
+
+    <main>
+        <div class="grid-container" id="grid-container"></div>
+    
+        <div class="history-section">
+            <h2>Mission</h2>
+            <p></p>
+            <button id="play-video">Play Video</button>
+            <div id="video-container"></div>
+        </div>
+    </main>
+    
+
+    <footer>
+        <p>&copy; 2024 UN Development Goals</p>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
 </body>
 </html>
