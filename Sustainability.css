@@ -14,8 +14,22 @@ header {
     color: #000000;
     background-color: #b5df9d;
     text-align: center;
-    height: 100px;
+    height: 130px;
+    padding-top: 20px;
 }
+
+#mypara1 {
+
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: larger;
+    font-style: oblique;
+}
+
+
 
 form {
     display: flex;
