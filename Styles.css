@@ -72,6 +72,8 @@ header {
     color: white;
     padding: 10px 20px;
     text-align: center;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 header h1 {
@@ -97,6 +99,10 @@ nav a {
     font-weight: bold;
 }
 
+.active{
+    border-bottom: 3px solid #32312f;
+  }
+  
 main {
     padding: 20px;
     flex-grow: 1; 
@@ -244,7 +250,7 @@ label {
     margin-right: 40%;
 }
 
-nav ul li {
+/*nav ul li {
     display: inline;
     padding: 15px;
 }
@@ -269,7 +275,7 @@ nav ul li a:hover{
 
 nav ul li a:visited{
     color: #003366;
-}
+}*/
 
 #menu {
     display: none;
