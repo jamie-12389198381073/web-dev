@@ -247,7 +247,7 @@ label {
     margin-right: 40%;
 }
 
-nav ul li {
+/*nav ul li {
     display: inline;
     padding: 15px;
 }
@@ -272,7 +272,7 @@ nav ul li a:hover{
 
 nav ul li a:visited{
     color: #003366;
-}
+}*/
 
 #menu {
     display: none;
