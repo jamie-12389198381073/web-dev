@@ -1,3 +1,50 @@
+
+#mypara1 {
+
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: larger;
+    font-style: oblique;
+}
+
+.servies {
+   /* float: left;
+    width: 47%;
+    height: 400px;
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 24px;
+    padding-left: 11px;
+    padding-right: 11px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    */
+}
+
+.servies img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+section {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e4d8c5;
+    overflow: auto;
+
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -220,16 +267,5 @@ nav ul li a:visited{
 
 #menu {
     display: none;
-}
-
-#mypara1 {
-
-    text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: larger;
-    font-style: oblique;
 }
 

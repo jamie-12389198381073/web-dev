@@ -39,13 +39,13 @@ if (sectionElement = document.querySelector("#section")) {
             paraElement1.textContent = "about this team member: " + item.about;
     
             schedule.appendChild(paraElement2);
-            paraElement2.textContent = "focus: " + item.focus;
+            paraElement2.textContent = "focus: " + item.whatTheyDo;
     
             schedule.appendChild(paraElement3);
-            paraElement3.textContent = "benefits: " + item.benefits;
+            paraElement3.textContent = "benefits: " + item.Hobbies;
     
             schedule.appendChild(paraElement4);
-            paraElement4.textContent = "level: " + item.level;
+            paraElement4.textContent = "Why They Chose To Do This Line Of Work: " + item.WhyTheyChoseToDoThisLineOfWork;
           }
         })
         .catch((error) => console.error("Error fetching JSON data", error));
