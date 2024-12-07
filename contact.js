@@ -26,6 +26,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
             document.querySelector('#Goals').textContent = item.goals
             const required = document.createElement('h1');
             document.querySelector('#change').textContent = item.require
+            const Title = document.createElement('h1');
+            document.querySelector('#title').textContent = item.header
 
 
 

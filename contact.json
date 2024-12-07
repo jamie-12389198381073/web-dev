@@ -4,12 +4,13 @@
         "lastname": "Surname*",
         "Email": "E-mail address*",
         "Message": "Leave a message",
-        "Foot": "Copyright © 2024 Sustainabiltiy goals",
+        "Foot": "© 2024 UN Development Goals",
         "home": "Home",
         "about": "About us",
         "contact": "Contact us",
         "goals": "Our goals",
-        "require": "Requried feild*"
+        "require": "Requried feild*",
+        "header": "UN Development Goals"
     
     }
 ]

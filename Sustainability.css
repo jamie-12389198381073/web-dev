@@ -14,7 +14,7 @@ header {
     color: #000000;
     background-color: #b5df9d;
     text-align: center;
-    height: 130px;
+    height: 100px;
     padding-top: 20px;
 }
 
@@ -34,6 +34,7 @@ header {
 form {
     display: flex;
     flex-direction: column; 
+    position: relative;
     max-width: 700px;
     margin: 20px; 
     padding: 20px;
@@ -125,4 +126,8 @@ nav ul li a:hover{
 
 nav ul li a:visited{
     color: #003366;
+}
+
+#menu {
+    display: none;
 }
