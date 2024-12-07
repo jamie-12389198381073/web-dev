@@ -202,15 +202,6 @@ fieldset {
     margin: 0;
 }
 
-legend {
-    padding: 5px 10px;
-    font-size: medium;
-    font-weight: bold;
-    color: #4a90e2;
-    border: 1px solid #195022;
-    border-radius: 5px;
-}
-
 input, textarea {
     display: block;
     width: 100%; 
