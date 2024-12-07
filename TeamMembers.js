@@ -31,7 +31,7 @@ if (sectionElement = document.querySelector("#section")) {
             const paraElement3 = document.createElement("p");
             const paraElement4 = document.createElement("p");
     
-            schedule.setAttribute("class", "servies");
+            schedule.setAttribute("class", "teammembers ");
             schedule.appendChild(headElement);
             headElement.textContent = "Name of our team member:" + item.NameOfOurTeamMember;
     
