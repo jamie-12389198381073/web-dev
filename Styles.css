@@ -93,6 +93,10 @@ nav a {
     font-weight: bold;
 }
 
+.active{
+    border-bottom: 3px solid #32312f;
+  }
+  
 main {
     padding: 20px;
     flex-grow: 1; 
