@@ -28,6 +28,10 @@ document.addEventListener('DOMContentLoaded', ()=>{
             document.querySelector('#change').textContent = item.require
             const Title = document.createElement('h1');
             document.querySelector('#title').textContent = item.header
+            const fblink = document.createElement('h4');
+            document.querySelector('#fb').textContent = item.facebook
+            const twitlink = document.createElement('h4');
+            document.querySelector('#twit').textContent = item.twitter
 
 
 
