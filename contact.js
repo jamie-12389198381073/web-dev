@@ -32,6 +32,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
             document.querySelector('#fb').textContent = item.facebook
             const twitlink = document.createElement('h4');
             document.querySelector('#twit').textContent = item.twitter
+            const linkedlink = document.createElement('h4');
+            document.querySelector('#linked').textContent = item.linkedin
 
 
 

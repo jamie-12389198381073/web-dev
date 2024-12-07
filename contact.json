@@ -12,7 +12,8 @@
         "require": "Requried feild*",
         "header": "Get in Touch",
         "facebook": "Facebook",
-        "twitter": "Twitter"
+        "twitter": "Twitter",
+        "linkedin": "LinkedIn"
     
     }
 ]
