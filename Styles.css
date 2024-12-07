@@ -11,6 +11,9 @@
 }
 
 .teammembers {
+float: middle;
+padding-left: 200px;
+padding-right: 100px;
    /* float: left;
     width: 47%;
     height: 400px;
@@ -30,9 +33,8 @@
 
 .teammembers img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
+    width: 800px;
+
 }
 section {
     margin-top: 10px;
