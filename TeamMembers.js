@@ -39,10 +39,10 @@ if (sectionElement = document.querySelector("#section")) {
             paraElement1.textContent = "about this team member: " + item.about;
     
             schedule.appendChild(paraElement2);
-            paraElement2.textContent = "focus: " + item.whatTheyDo;
+            paraElement2.textContent = "What role do they play in the team: " + item.whatTheyDo;
     
             schedule.appendChild(paraElement3);
-            paraElement3.textContent = "benefits: " + item.Hobbies;
+            paraElement3.textContent = "what are there hobbies: " + item.Hobbies;
     
             schedule.appendChild(paraElement4);
             paraElement4.textContent = "Why They Chose To Do This Line Of Work: " + item.WhyTheyChoseToDoThisLineOfWork;
