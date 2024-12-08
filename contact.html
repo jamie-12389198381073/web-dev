@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="Sustainability.css" type="text/css">
+    <link rel="stylesheet" href="Styles.css" type="text/css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up</title>
@@ -14,15 +14,13 @@
 <body>
     <div id="wrapper">
         <header>
-            <h1></h1>
-            <a id="menu"><i class="fa fa-bars"></i></a>
+            <h2 id="title"></h2>
         </header>
         <nav>
-            <ul>
-                <li class="active"><a id="Home" href="index.html"></a></li> 
-                <li><a id="About" href="classes.html"></a></li>
-                <li><a id="Contact" href="contact.html"></a></li>
-                <li><a id="Goals" href=""></a></li>
+                <a id="Home" href="index.html"></a></li> 
+                <a id="About" href="team-members.html"></a></li>
+                <a id="Goals" href="goals.html"></a></li>
+                <a class="active" id="Contact" href="contact.html"></a></li>
         </nav>
 <Main>
     <h2> </h2>
@@ -31,7 +29,6 @@
         <form id="myForm" method="post"
         action="/contact">
         <fieldset>
-            <legend> </legend>
             <label id="namelabel" for="name"></label>
             <input type="text" id="fname" name="name">
             <label id="surname" for="name"></label>
@@ -48,8 +45,16 @@
 
     </section>
 </Main>
-<footer id="foottag" for="foot"><class="email" href="mailto:someone@example.com"></a></footer>
-    
+
+<footer>
+    <p id="foottag"></p>
+    <div class="social-media">
+        <a id="fb" href="#"></a>
+        <a id="twit" href="#"></a>
+        <a id="linked" href="#"></a>
+    </div>
+</footer>
+
 </body>
 
 </html>

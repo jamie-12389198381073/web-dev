@@ -1,0 +1,31 @@
+[
+    {
+        "NameOfOurTeamMember": "In the image above we have a picture of Linda who is one of valued team members",
+        "about": "10:00 - 11:00",
+        "whatTheyDo": "Lower Back",
+        "Hobbies": "Brings Peace to the Mind",
+        "WhyTheyChoseToDoThisLineOfWork": "Beginner",
+        "imageURL": "Images/linda.webp",
+        "alt": "A photo of linda"
+    },
+
+    {
+        "NameOfOurTeamMember": "In the image above we have a picture of Harry who is one of valued team members",
+        "about": "10:00 - 11:00",
+        "whatTheyDo": "Lower Back",
+        "Hobbies": "Brings Peace to the Mind",
+        "WhyTheyChoseToDoThisLineOfWork": "Beginner",
+        "imageURL": "Images/harry.jpg",
+        "alt": "A photo of harry"
+    },
+
+    {
+        "NameOfOurTeamMember": "In the image above we have a picture of David who is one of valued team members",
+        "about": "10:00 - 11:00",
+        "whatTheyDo": "Lower Back",
+        "Hobbies": "Brings Peace to the Mind",
+        "WhyTheyChoseToDoThisLineOfWork": "Beginner",
+        "imageURL": "Images/david.jpg",
+        "alt": "A photo of David"
+    }
+]
