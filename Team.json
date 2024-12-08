@@ -1,6 +1,6 @@
 [
     {
-        "NameOfOurTeamMember": "In the image above we have a picture of Linda who is one of valued team members",
+        "NameOfOurTeamMember": "In the image above we have a picture of Jamie who is one of valued team members",
         "about": "Linda is 32 years old and has been working ",
         "whatTheyDo": "Lower Back",
         "Hobbies": "Brings Peace to the Mind",
@@ -10,7 +10,7 @@
     },
 
     {
-        "NameOfOurTeamMember": "In the image above we have a picture of Harry who is one of valued team members",
+        "NameOfOurTeamMember": "In the image above we have a picture of Rishi who is one of valued team members",
         "about": "10:00 - 11:00",
         "whatTheyDo": "Lower Back",
         "Hobbies": "Brings Peace to the Mind",
@@ -21,6 +21,16 @@
 
     {
         "NameOfOurTeamMember": "In the image above we have a picture of David who is one of valued team members",
+        "about": "10:00 - 11:00",
+        "whatTheyDo": "Lower Back",
+        "Hobbies": "Brings Peace to the Mind",
+        "WhyTheyChoseToDoThisLineOfWork": "Beginner",
+        "imageURL": "Images/david.jpg",
+        "alt": "A photo of David"
+    },
+
+    {
+        "NameOfOurTeamMember": "In the image above we have a picture of  who is one of valued team members",
         "about": "10:00 - 11:00",
         "whatTheyDo": "Lower Back",
         "Hobbies": "Brings Peace to the Mind",
