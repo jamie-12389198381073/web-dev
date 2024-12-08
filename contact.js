@@ -68,5 +68,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
             .then (responsedata =>{ console.log(responsedata);
                 myConfirmation.textContent=`Hi ${responsedata.firstName} ${responsedata.lastName}, your message has
                 been received, we will contact you at ${responsedata.email}`;
-        });
+
+            });
     });
