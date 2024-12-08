@@ -119,3 +119,7 @@ iframe {
     height: 315px;
     margin-top: 20px;
 }
+img {
+    width: 400px;
+    height: auto;
+}

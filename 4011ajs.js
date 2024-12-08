@@ -1,0 +1,1 @@
+let localJsonFile = 'goals.json';
