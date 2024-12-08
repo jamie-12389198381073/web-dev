@@ -10,7 +10,10 @@
         "contact": "Contact us",
         "goals": "Our goals",
         "require": "Requried feild*",
-        "header": "Get in Touch"
+        "header": "Get in Touch",
+        "facebook": "Facebook",
+        "twitter": "Twitter",
+        "linkedin": "LinkedIn"
     
     }
 ]
