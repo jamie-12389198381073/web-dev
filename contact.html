@@ -30,16 +30,20 @@
         action="/contact">
         <fieldset>
             <label id="namelabel" for="name"></label>
-            <input type="text" id="fname" name="name">
-            <label id="surname" for="name"></label>
-            <input type="text" id="fname" name="name">
-            <label for="email" id="emaillabel"></label>
-            <input type="email" id="email" name="email">
-            <label id="messagelabel" for="message"> </label>
-            <textarea name="message" id="message"></textarea>
-            <input type="submit" value="send message" class="button">
-            <p id="change"></p>
+            <input type="text" id="fname" name="firstname" required>
 
+            <label id="surname" for="lname"></label>
+            <input type="text" id="lname" name="lastname" required>
+
+            <label for="email" id="emaillabel"></label>
+            <input type="email" id="email" name="email" required>
+
+            <label id="messagelabel" for="message"> </label>
+            <textarea name="message" id="message" required></textarea>
+
+            <input type="submit" value="Send message" class="button">
+
+            <p id="change"></p>
         </fieldset>
         </form>
 
