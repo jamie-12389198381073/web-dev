@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   header.textContent = "Team Members";
 
   let mypara1 = document.getElementById("mypara1");
-  mypara1.textContent = "This page will showcase our amazing team members with infomration about what they do and why they want to do it. It will also tell you about why they chose to work in this industy and more genral information about them";
+  mypara1.textContent = "This page will showcase our amazing team members with information about what they did in this project as well as information about them such as there picture name and short bio.";
 
 });
 
