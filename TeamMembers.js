@@ -33,15 +33,16 @@ if (sectionElement = document.querySelector("#section")) {
 
           schedule.setAttribute("class", "teammembers ");
           schedule.appendChild(headElement);
-          headElement.textContent = "Name of our team member:" + item.NameOfOurTeamMember;
+          headElement.textContent = "Name of our team member:  " + item.NameOfOurTeamMember;
+
           schedule.appendChild(paraElement1);
-          paraElement1.textContent = "about this team member: " + item.about;
+          paraElement1.textContent = "bio:  " + item.bio;
 
           schedule.appendChild(paraElement2);
-          paraElement2.textContent = "What role do they play in the team: " + item.whatTheyDo;
+          paraElement2.textContent = "What role do they play in the team:  " + item.whatTheyDo;
 
           schedule.appendChild(paraElement3);
-          paraElement3.textContent = "what are there hobbies: " + item.Hobbies;
+          paraElement3.textContent = "what are there hobbies:  " + item.Hobbies;
 
           schedule.appendChild(paraElement4);
           paraElement4.textContent = "Why They Chose To Do This Line Of Work: " + item.WhyTheyChoseToDoThisLineOfWork;
