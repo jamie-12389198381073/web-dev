@@ -8,12 +8,24 @@ document.addEventListener('DOMContentLoaded', ()=>{
         for (item of responseData){
             const title = document.createElement('h1');
             document.querySelector('#namelabel').textContent = item.Name
-            const email = document.createElement('h3');
+            const email = document.createElement('h1');
             document.querySelector('#emaillabel').textContent = item.Email
-            const message = document.createElement('h4');
+            const message = document.createElement('h1');
             document.querySelector('#messagelabel').textContent = item.Message
-            const surname = document.createElement('h2')
+            const surname = document.createElement('h1')
             document.querySelector('#surname').textContent = item.lastname
+            const foot = document.createElement('h4');
+            document.querySelector('#foottag').textContent = item.Foot
+            const homepage = document.createElement('h1');
+            document.querySelector('#Home').textContent = item.home
+            const aboutUs = document.createElement('h1')
+            document.querySelector('#About').textContent = item.about
+            const contactUs = document.createElement('h1');
+            document.querySelector('#Contact').textContent = item.contact
+            const ourGoals = document.createElement('h1');
+            document.querySelector('#Goals').textContent = item.goals
+            const required = document.createElement('h1');
+            document.querySelector('#change').textContent = item.require
 
 
 

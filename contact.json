@@ -1,9 +1,15 @@
 [
     { 
-        "Name": "Name",
-        "lastname": "Surname",
-        "Email": "E-mail address",
-        "Message": "Leave a message"
+        "Name": "Name*",
+        "lastname": "Surname*",
+        "Email": "E-mail address*",
+        "Message": "Leave a message",
+        "Foot": "Copyright © 2024 Sustainabiltiy goals",
+        "home": "Home",
+        "about": "About us",
+        "contact": "Contact us",
+        "goals": "Our goals",
+        "require": "Requried feild*"
     
     }
 ]
