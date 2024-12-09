@@ -274,3 +274,15 @@ nav ul li a:visited{
     display: none;
 }
 
+.goals-img {
+    width: 400px;
+    height: auto;
+}
+
+.center {
+    text-align: center;
+    margin: 10px auto;
+    justify-content: center;
+    display: flex;
+    display: block;
+}
