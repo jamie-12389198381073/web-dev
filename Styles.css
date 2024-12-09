@@ -15,9 +15,9 @@
     font-size: 25px;
     padding-top: 40px;
     border: 2px solid #333333;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
     
        /* float: left;
         width: 47%;
@@ -49,6 +49,11 @@
         overflow: auto;
         border-radius: 2px;
         border: 2px solid #333333;
+    }
+
+    .teammembers p {
+        margin-top: 15px;
+        line-height: 1.5;
     }
 
 * {
@@ -277,15 +282,15 @@ nav ul li a:visited{
 
 @media only screen and (max-width:786px) {
     .teammembers {
-        display: grid;
-        grid-template-columns: 1fr 1fr; 
-        gap: 20px; 
         text-align: center;
         font-size: 25px;
         padding: 40px;
         border: 2px solid #333333;
         background-color: #ffffff; 
         border-radius: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 20px; 
     }
     
     .teammembers img {
