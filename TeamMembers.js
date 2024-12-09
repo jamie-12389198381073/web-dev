@@ -1,3 +1,4 @@
+let localJsonFile = "contact.json"
 document.addEventListener("DOMContentLoaded", () => {
   document.title = "Team Members - Sustainbility";
   let header = document.getElementById("teamMembers");
@@ -68,3 +69,30 @@ function createParagraph(text) {
   paragraph.textContent = text;
   return paragraph;
 }
+
+document.addEventListener('DOMContentLoaded', ()=>{
+  fetch(localJsonFile)
+  .then(response => response.json())
+  .then (responseData =>{ console.log(responseData);
+      for (item of responseData){
+          document.querySelector('#foottag').textContent = item.Foot
+          const homepage = document.createElement('h1');
+          document.querySelector('#Home').textContent = item.home
+          const aboutUs = document.createElement('h1')
+          document.querySelector('#About').textContent = item.about
+          const contactUs = document.createElement('h1');
+          document.querySelector('#Contact').textContent = item.contact
+          const ourGoals = document.createElement('h1');
+          document.querySelector('#Goals').textContent = item.goals
+          const required = document.createElement('h1');
+          document.querySelector('#fb').textContent = item.facebook
+          const twitlink = document.createElement('h4');
+          document.querySelector('#twit').textContent = item.twitter
+          const linkedlink = document.createElement('h4');
+          document.querySelector('#linked').textContent = item.linkedin
+
+
+
+      }
+   })
+  })
