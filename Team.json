@@ -6,7 +6,7 @@
         "Hobbies": "",
         "WhyTheyChoseToDoThisLineOfWork": "",
         "imageURL": "Images/Jamie.jpg",
-        "alt": "A photo of linda"
+        "alt": "A photo of Jamie"
     },
 
     {
@@ -16,17 +16,17 @@
         "Hobbies": "",
         "WhyTheyChoseToDoThisLineOfWork": "",
         "imageURL": "Images/rishi.jpg",
-        "alt": "A photo of harry"
+        "alt": "A photo of Rishi"
     },
 
     {
         "NameOfOurTeamMember": "In the image above we have a picture of David who is one of valued team members",
-        "bio": "",
+        "bio": "Alan is also a first-year Computer Science student currently studying at UEA. He had a bit of experience coding in HTML before coming to UEA but has since learned much more and is excited to continue learning.",
         "whatTheyDo": "",
         "Hobbies": "",
         "WhyTheyChoseToDoThisLineOfWork": "",
         "imageURL": "Images/Alan.jpg",
-        "alt": "A photo of David"
+        "alt": "A photo of Alan"
     },
 
     {
@@ -36,6 +36,6 @@
         "Hobbies": "",
         "WhyTheyChoseToDoThisLineOfWork": "",
         "imageURL": "Images/Jakub.jpg",
-        "alt": "A photo of David"
+        "alt": "A photo of Jakub"
     }
 ]

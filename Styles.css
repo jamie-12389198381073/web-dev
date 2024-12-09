@@ -18,22 +18,8 @@
     padding-bottom: 40px;
     padding-left: 40px;
     padding-right: 40px;
-    
-       /* float: left;
-        width: 47%;
-        height: 400px;
-        background-color: #ffffff;
-        padding-top: 100px;
-        padding-bottom: 24px;
-        padding-left: 11px;
-        padding-right: 11px;
-        margin-top: auto;
-        margin-right: auto;
-        margin-bottom: 20px;
-        margin-left: 15px;
-        border-radius: 20px;
-        box-sizing: border-box;
-        */
+    border-radius: 10px;
+   
     }
     
     .teammembers img {

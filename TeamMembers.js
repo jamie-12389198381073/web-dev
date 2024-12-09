@@ -9,49 +9,62 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-if (sectionElement = document.querySelector("#section")) {
-  let localJsonFile = "Team.json";
-  document.addEventListener("DOMContentLoaded", () => {
-    fetch(localJsonFile)
-      .then((response) => response.json())
-      .then((responseData) => {
-        for (item of responseData) {
-          const schedule = document.createElement("article");
-          const imageElement = document.createElement("img");
-          sectionElement.appendChild(schedule);
-          imageElement.src = item.imageURL;
-          imageElement.alt = item.alt;
+document.addEventListener("DOMContentLoaded", () => {
+  const sectionElement = document.querySelector("#section");
+  if (!sectionElement) return;
 
-          imageElement.classList.add("small-image");
+  const localJsonFile = "Team.json";
 
-          schedule.appendChild(imageElement);
-          const headElement = document.createElement("h4");
-          const paraElement1 = document.createElement("p");
-          const paraElement2 = document.createElement("p");
-          const paraElement3 = document.createElement("p");
-          const paraElement4 = document.createElement("p");
+  fetch(localJsonFile)
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      return response.json();
+    })
+    .then((responseData) => {
+      responseData.forEach((item) => {
+        const schedule = createTeamMemberCard(item);
+        sectionElement.appendChild(schedule);
+      });
+    })
+    .catch((error) => {
+      console.error("Error fetching JSON data", error);
+    });
+});
 
-          schedule.setAttribute("class", "teammembers ");
-          schedule.appendChild(headElement);
-          headElement.textContent = "Name of our team member:  " + item.NameOfOurTeamMember;
+function createTeamMemberCard(item) {
+  const schedule = document.createElement("article");
+  schedule.setAttribute("class", "teammembers");
 
-          schedule.appendChild(paraElement1);
-          paraElement1.textContent = "bio:  " + item.bio;
+  const imageElement = createImageElement(item.imageURL, item.alt);
+  schedule.appendChild(imageElement);
 
-          schedule.appendChild(paraElement2);
-          paraElement2.textContent = "What role do they play in the team:  " + item.whatTheyDo;
+  schedule.appendChild(createHeading("Name of our team member:  " + item.NameOfOurTeamMember));
+  schedule.appendChild(createParagraph("bio:  " + item.bio));
+  schedule.appendChild(createParagraph("What role do they play in the team:  " + item.whatTheyDo));
+  schedule.appendChild(createParagraph("Responsibilities:  " + item.Hobbies));
+  schedule.appendChild(createParagraph("Contributions:  " + item.WhyTheyChoseToDoThisLineOfWork));
 
-          schedule.appendChild(paraElement3);
-          paraElement3.textContent = "Responsibilites:  " + item.Hobbies;
-
-          schedule.appendChild(paraElement4);
-          paraElement4.textContent = "Contributions: " + item.WhyTheyChoseToDoThisLineOfWork;
-        }
-
-      })
-
-      .catch((error) => console.error("Error fetching JSON data", error));
-
-  });
+  return schedule;
 }
 
+function createImageElement(src, alt) {
+  const imageElement = document.createElement("img");
+  imageElement.src = src;
+  imageElement.alt = alt;
+  imageElement.classList.add("small-image");
+  return imageElement;
+}
+
+function createHeading(text) {
+  const heading = document.createElement("h4");
+  heading.textContent = text;
+  return heading;
+}
+
+function createParagraph(text) {
+  const paragraph = document.createElement("p");
+  paragraph.textContent = text;
+  return paragraph;
+}
