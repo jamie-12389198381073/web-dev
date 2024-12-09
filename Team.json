@@ -1,40 +1,40 @@
 [
     {
         "NameOfOurTeamMember": "In the image above we have a picture of Jamie who is one of valued team members",
-        "bio": "Linda is 32 years old and has been working ",
-        "whatTheyDo": "Lower Back",
-        "Hobbies": "Brings Peace to the Mind",
-        "WhyTheyChoseToDoThisLineOfWork": "Beginner",
+        "bio": "Jamie is a first-year Computer Science student currently studying at UEA. He had a decent of experience coding in HTML before coming to UEA but has since learned much more and is excited to continue learning. ",
+        "whatTheyDo": "",
+        "Hobbies": "",
+        "WhyTheyChoseToDoThisLineOfWork": "",
         "imageURL": "Images/Jamie.jpg",
         "alt": "A photo of linda"
     },
 
     {
         "NameOfOurTeamMember": "In the image above we have a picture of Rishi who is one of valued team members",
-        "bio": "10:00 - 11:00",
-        "whatTheyDo": "Lower Back",
-        "Hobbies": "Brings Peace to the Mind",
-        "WhyTheyChoseToDoThisLineOfWork": "Beginner",
+        "bio": "Rishi is a first-year Computer Science student currently studying at UEA. He had a bit of experience coding in HTML before coming to UEA but has since learned much more and is excited to continue learning.",
+        "whatTheyDo": "",
+        "Hobbies": "",
+        "WhyTheyChoseToDoThisLineOfWork": "",
         "imageURL": "Images/rishi.jpg",
         "alt": "A photo of harry"
     },
 
     {
         "NameOfOurTeamMember": "In the image above we have a picture of David who is one of valued team members",
-        "bio": "10:00 - 11:00",
-        "whatTheyDo": "Lower Back",
-        "Hobbies": "Brings Peace to the Mind",
-        "WhyTheyChoseToDoThisLineOfWork": "Beginner",
+        "bio": "",
+        "whatTheyDo": "",
+        "Hobbies": "",
+        "WhyTheyChoseToDoThisLineOfWork": "",
         "imageURL": "Images/Alan.jpg",
         "alt": "A photo of David"
     },
 
     {
         "NameOfOurTeamMember": "In the image above we have a picture of Jakub who is one of valued team members",
-        "bio": "10:00 - 11:00",
-        "whatTheyDo": "Lower Back",
-        "Hobbies": "Brings Peace to the Mind",
-        "WhyTheyChoseToDoThisLineOfWork": "Beginner",
+        "bio": "",
+        "whatTheyDo": "",
+        "Hobbies": "",
+        "WhyTheyChoseToDoThisLineOfWork": "",
         "imageURL": "Images/Jakub.jpg",
         "alt": "A photo of David"
     }
