@@ -302,12 +302,23 @@ nav ul li a:visited{
 .goals-img {
     width: 400px;
     height: auto;
+    margin: 10px auto;
 }
 
 .center {
     text-align: center;
-    margin: 10px auto;
+    margin: auto;
     justify-content: center;
     display: flex;
     display: block;
+}
+.space {
+    margin: 10px auto;
+}
+.goals-button {
+    width:50px;
+    height: 30px;
+    color: black;
+    background-color:d3fdca;
+    float: right;
 }
