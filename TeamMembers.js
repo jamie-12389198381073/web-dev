@@ -1,54 +1,70 @@
 document.addEventListener("DOMContentLoaded", () => {
-    document.title = "Team Members - Sustainbility";
-    let header = document.getElementById("teamMembers");
-    header.textContent = "Team Members";
+  document.title = "Team Members - Sustainbility";
+  let header = document.getElementById("teamMembers");
+  header.textContent = "Team Members";
 
-    let mypara1 = document.getElementById("mypara1");
-    mypara1.textContent = "This page will showcase our amazing team members with infomration about what they do and why they want to do it. It will also tell you about why they chose to work in this industy and more genral information about them";
-    
+  let mypara1 = document.getElementById("mypara1");
+  mypara1.textContent = "This page will showcase our amazing team members with information about what they did in this project as well as information about them such as there picture name and short bio.";
+
 });
 
 
-if (sectionElement = document.querySelector("#section")) {
-    let localJsonFile = "Team.json";
-    document.addEventListener("DOMContentLoaded", () => {
-      fetch(localJsonFile)
-        .then((response) => response.json())
-        .then((responseData) => {
-          for (item of responseData) {
-            const schedule = document.createElement("article");
-            const imageElement = document.createElement("img");
-            sectionElement.appendChild(schedule);
-            imageElement.src = item.imageURL;
-            imageElement.alt = item.alt;
-    
-            imageElement.classList.add("small-image");
-    
-            schedule.appendChild(imageElement);
-            const headElement = document.createElement("h4");
-            const paraElement1 = document.createElement("p");
-            const paraElement2 = document.createElement("p");
-            const paraElement3 = document.createElement("p");
-            const paraElement4 = document.createElement("p");
-    
-            schedule.setAttribute("class", "teammembers ");
-            schedule.appendChild(headElement);
-            headElement.textContent = "Name of our team member:" + item.NameOfOurTeamMember;
-    
-            schedule.appendChild(paraElement1);
-            paraElement1.textContent = "about this team member: " + item.about;
-    
-            schedule.appendChild(paraElement2);
-            paraElement2.textContent = "What role do they play in the team: " + item.whatTheyDo;
-    
-            schedule.appendChild(paraElement3);
-            paraElement3.textContent = "what are there hobbies: " + item.Hobbies;
-    
-            schedule.appendChild(paraElement4);
-            paraElement4.textContent = "Why They Chose To Do This Line Of Work: " + item.WhyTheyChoseToDoThisLineOfWork;
-          }
-        })
-        .catch((error) => console.error("Error fetching JSON data", error));
-    });
-    }
+document.addEventListener("DOMContentLoaded", () => {
+  const sectionElement = document.querySelector("#section");
+  if (!sectionElement) return;
 
+  const localJsonFile = "Team.json";
+
+  fetch(localJsonFile)
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      return response.json();
+    })
+    .then((responseData) => {
+      responseData.forEach((item) => {
+        const schedule = createTeamMemberCard(item);
+        sectionElement.appendChild(schedule);
+      });
+    })
+    .catch((error) => {
+      console.error("Error fetching JSON data", error);
+    });
+});
+
+function createTeamMemberCard(item) {
+  const schedule = document.createElement("article");
+  schedule.setAttribute("class", "teammembers");
+
+  const imageElement = createImageElement(item.imageURL, item.alt);
+  schedule.appendChild(imageElement);
+
+  schedule.appendChild(createHeading("Name of our team member:  " + item.NameOfOurTeamMember));
+  schedule.appendChild(createParagraph("bio:  " + item.bio));
+  schedule.appendChild(createParagraph("What role do they play in the team:  " + item.whatTheyDo));
+  schedule.appendChild(createParagraph("Responsibilities:  " + item.Hobbies));
+  schedule.appendChild(createParagraph("Contributions:  " + item.WhyTheyChoseToDoThisLineOfWork));
+
+  return schedule;
+}
+
+function createImageElement(src, alt) {
+  const imageElement = document.createElement("img");
+  imageElement.src = src;
+  imageElement.alt = alt;
+  imageElement.classList.add("small-image");
+  return imageElement;
+}
+
+function createHeading(text) {
+  const heading = document.createElement("h4");
+  heading.textContent = text;
+  return heading;
+}
+
+function createParagraph(text) {
+  const paragraph = document.createElement("p");
+  paragraph.textContent = text;
+  return paragraph;
+}
