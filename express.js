@@ -31,5 +31,4 @@ app.get("/goals.html", (req,res) => {
         h3.textContent = "No Poverty";
         p3.textContent= "No Poverty text";
      })
-     
  })
