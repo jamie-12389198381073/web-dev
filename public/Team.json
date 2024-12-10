@@ -1,18 +1,18 @@
 [
     {
         "NameOfOurTeamMember": "In the image above we have a picture of Jamie who is one of valued team members",
-        "bio": "Jamie is a first-year Computer Science student currently studying at UEA. He had a some experience coding in HTML before coming to UEA but has since learned much more and is excited to continue learning. ",
-        "whatTheyDo": "Jamie's role is the developer of the teams page as well as some of the css mainly those relating to his page. Jamie was also tasked with setting up the trello which was used to plan the project. All of the contents of the teams page is dynamically loaded by the use of Java Script and json.",
-        "WhyTheyChoseToDoThisLineOfWork": "Jamie uses HTML , CSS , JavaScript and json in the page he made.",
+        "bio": "Jamie is a first-year Computer Science student currently studying at UEA. He had some experience coding in HTML before coming to UEA but has since learned much more and is excited to continue learning. Jamie has a personal interest in helping the enviroment so this project was perfect for him. ",
+        "whatTheyDo": "Jamie's role is the developer of the team's page as well as some of the CSS used for all pages and of course the CSS for his page. Jamie was also tasked with setting up the trello which was used to plan the project. All of the contents of the teams page is dynamically loaded by the use of Java Script and json.",
+        "Contributions": "Jamie uses HTML , CSS , JavaScript and json in the page he made.",
         "imageURL": "Images/Jamie.jpg",
         "alt": "A photo of Jamie"
     },
 
     {
         "NameOfOurTeamMember": "In the image above we have a picture of Rishi who is one of valued team members",
-        "bio": "Rishi is a first-year Computer Science student currently studying at UEA. He had a bit of experience coding in HTML before coming to UEA but has since learned much more and is excited to continue learning.",
-        "whatTheyDo": "Rishi's role is developer of the goals page which is used to display our 3 main goals that we are trying to achive ,the content on this page is also dynamically loaded .",
-        "WhyTheyChoseToDoThisLineOfWork": "Rishi uses HTML , CSS , JavaScript and json in the page he made.",
+        "bio": "Rishi is a first-year Computer Science student currently studying at UEA. He had a bit of experience coding in HTML before coming to UEA but has since learned much more and is excited to continue learning. Rishi also sees the importance of helping the environment.",
+        "whatTheyDo": "Rishi's role is developer of the goals page which is used to display our 3 main goals that we are trying to achieve ,the content on this page is also dynamically loaded .",
+        "Contributions": "Rishi uses HTML , CSS , JavaScript and json in the page he made.",
         "imageURL": "Images/rishi.jpg",
         "alt": "A photo of Rishi"
     },
@@ -20,8 +20,8 @@
     {
         "NameOfOurTeamMember": "In the image above we have a picture of Alan who is one of valued team members",
         "bio": "Alan is also a first-year Computer Science student currently studying at UEA. He had a bit of experience coding in HTML before coming to UEA but has since learned much more and is excited to continue learning.",
-        "whatTheyDo": "Alan's role is developer of the contact page and he in which he had to make a form that takes in user data. He has to design his form to look good and this was done via the use of css.",
-        "WhyTheyChoseToDoThisLineOfWork": "Alan uses HTML , CSS , JavaScript and json in the page he made.",
+        "whatTheyDo": "Alan's role is developer of the contact page and he in which he had to make a form that takes in user data. He has to design his form to look good and this was done via the use of css. Alan reguarly helps the environment by always recycling and he is always trying to do small things that make a difference in saving our planet",
+        "Contributions": "Alan uses HTML , CSS , JavaScript and json in the page he made.",
         "imageURL": "Images/Alan.jpg",
         "alt": "A photo of Alan"
     },
@@ -29,8 +29,8 @@
     {
         "NameOfOurTeamMember": "In the image above we have a picture of Jakub who is one of valued team members",
         "bio": "Jakub is also a first-year Computer Science student currently studying at UEA. He had a bit of experience coding in HTML before coming to UEA but has since learned much more and is excited to continue learning.",
-        "whatTheyDo": "Jakub's role is developer of the index page and he is also the team leader. ",
-        "WhyTheyChoseToDoThisLineOfWork": "Jakub has used HTML , CSS , JavaScript in the page he made.",
+        "whatTheyDo": "Jakub's role is the developer of the index page and he is also the team leader. ",
+        "Contributions": "Jakub has used HTML , CSS , JavaScript in the page he made.",
         "imageURL": "Images/Jakub.jpg",
         "alt": "A photo of Jakub"
     }
