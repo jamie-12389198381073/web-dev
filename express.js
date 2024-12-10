@@ -35,10 +35,10 @@ app.get("/goals.html", (req,res) => {
  })
  app.post('/contact', (req, res) => {
        console.log(req.body);
-       const firstName = req.body.firstName;
-       const lastName = req.body.lastName;
+       const name = req.body.firstname;
+       const lname = req.body.lastname;
        const email = req.body.email;
-       res.send(`Thank you ${firstName} ${lastName} for contacting us. We will respond to your email at ${email}`);
+       res.send(`Thank you ${name} ${lname} for contacting us. We will respond to your email at ${email}`);
  })
  app.listen(port, () => {
      console.log(`Listening on port ${port}`);
