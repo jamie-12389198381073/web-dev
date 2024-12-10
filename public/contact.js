@@ -46,14 +46,14 @@ document.addEventListener('DOMContentLoaded', ()=>{
     let myName = document.querySelector('#fname');
     let mySurname = document.querySelector('#lname');
     let myEmail = document.querySelector('#email');
-    let myConfirmation = document.querySelector('#change');
+    let myConfirmation = document.querySelector.textContent('#change');
     let myMessage = document.querySelector('#message');
 
     myForm.addEventListener('submit', (e)=>{
         e.preventDefault();
         const formBody = {
-            firstName: myName.value,
-            lastName: mySurname.value,
+            name: myName.value,
+            lname: mySurname.value,
             email: myEmail.value,
             message: myMessage.value
             };
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             body: JSON.stringify(formBody)
             }).then(response => response.json())
             .then (responsedata =>{ console.log(responsedata);
-                myConfirmation.textContent=`Hi ${responsedata.firstName} ${responsedata.lastName}, your message has
+                myConfirmation.textContent=`Hi ${responsedata.name} ${responsedata.lname}, your message has
                 been received, we will contact you at ${responsedata.email}`;
 
             });

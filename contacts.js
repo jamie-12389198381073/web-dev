@@ -4,9 +4,9 @@ const port = 3000;
 
 app.post("/contact", (req, res)=>{
     console.log(req.body);
-    const name = req.body.firstName;
-    const sName = req.body.lastName
+    const name = req.body.name;
+    const sName = req.body.lname
     const email = req.body.email;
     const message = req.body.message;
-    res.json({firstName: name, lastName:sName, email:email});
+    res.json({name:name, lname:sName, email:email});
     });
