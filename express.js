@@ -1,10 +1,11 @@
 const express = require('express');
 const app = express();
+const port = 3050;
 const fs = require('fs');
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
-app.use(express.static('/'));
+app.use(express.static('public'));
 
 app.get("/goals.html", (req,res) => {
      fs.readFile(goals.json, 'utf8', (err, data) => {
@@ -32,4 +33,14 @@ app.get("/goals.html", (req,res) => {
         p3.textContent= "No Poverty text";
      })
      
+ })
+ app.post('/contact', (req, res) => {
+       console.log(req.body);
+       const firstName = req.body.firstName;
+       const lastName = req.body.lastName;
+       const email = req.body.email;
+       res.send(`Thank you ${firstName} ${lastName} for contacting us. We will respond to your email at ${email}`);
+ })
+ app.listen(port, () => {
+     console.log(`Listening on port ${port}`);
  })
