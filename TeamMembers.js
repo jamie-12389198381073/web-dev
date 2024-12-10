@@ -44,7 +44,6 @@ function createTeamMemberCard(item) {
   schedule.appendChild(createHeading("Name of our team member:  " + item.NameOfOurTeamMember));
   schedule.appendChild(createParagraph("bio:  " + item.bio));
   schedule.appendChild(createParagraph("What role do they play in the team:  " + item.whatTheyDo));
-  schedule.appendChild(createParagraph("General Responsibilities:  " + item.Hobbies));
   schedule.appendChild(createParagraph("Contributions:  " + item.WhyTheyChoseToDoThisLineOfWork));
 
   return schedule;
