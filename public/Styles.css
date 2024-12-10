@@ -79,7 +79,7 @@ header select {
 nav {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 70px;
     background-color: #e0e0e0;
     padding: 10px;
 }
