@@ -322,3 +322,12 @@ nav ul li a:visited{
     background-color:d3fdca;
     float: right;
 }
+.para {
+    font-size: 25px;
+    width: 50%;
+    text-align: center;
+    margin: 10px auto;
+}
+.heading {
+    font-size: 30px;
+}
