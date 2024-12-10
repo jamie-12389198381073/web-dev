@@ -20,7 +20,7 @@
     {
         "NameOfOurTeamMember": "In the image above we have a picture of Alan who is one of valued team members",
         "bio": "Alan is also a first-year Computer Science student currently studying at UEA. He had a bit of experience coding in HTML before coming to UEA but has since learned much more and is excited to continue learning.",
-        "whatTheyDo": "Alan's role is developer of the contact page and he in which he had to make a form that takes in user data. He has to design his form to look good as well and this was done via the us of css",
+        "whatTheyDo": "Alan's role is developer of the contact page and he in which he had to make a form that takes in user data. He has to design his form to look good and this was done via the use of css.",
         "WhyTheyChoseToDoThisLineOfWork": "Alan uses HTML , CSS , JavaScript and json in the page he made.",
         "imageURL": "Images/Alan.jpg",
         "alt": "A photo of Alan"
