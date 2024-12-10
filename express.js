@@ -32,7 +32,6 @@ app.get("/goals.html", (req,res) => {
         h3.textContent = "No Poverty";
         p3.textContent= "No Poverty text";
      })
-     
  })
  app.post('/contact', (req, res) => {
        console.log(req.body);

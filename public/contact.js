@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     })
 
 
-    let myForm = document.querySelector('#myForm');
+    let myForm = document.querySelector('form');
     let myName = document.querySelector('#fname');
     let mySurname = document.querySelector('#lname');
     let myEmail = document.querySelector('#email');
